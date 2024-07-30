@@ -3,6 +3,7 @@
   "private": true,
   "type": "module",
   "scripts": {
+    "start": "node .output/server/index.mjs",
     "build": "nuxt build",
     "dev": "nuxt dev",
     "generate": "nuxt generate",
@@ -12,5 +13,8 @@
   "dependencies": {
     "nuxt": "^3.12.4",
     "vue": "latest"
+  },
+  "engines": {
+    "node": ">=18"
   }
 }
